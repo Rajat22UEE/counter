@@ -18,16 +18,6 @@ A beautiful, beginner-friendly **React + Next.js** application that helps you le
 
 ---
 
-## 📸 Preview
-
-### 🏠 Home Page (Counter)
-![Counter UI](https://via.placeholder.com/800x400?text=Home+Page+Preview)
-
-### 📘 Tutorial Page
-![Tutorial UI](https://via.placeholder.com/800x400?text=Tutorial+Page+Preview)
-
----
-
 ## ✨ Features
 
 - 🧮 Interactive Counter: Increment, Decrement, and Reset
