@@ -33,31 +33,25 @@ export default function TutorialPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-gray-800">🧩 Example Code</h2>
-          <pre className="bg-gray-900 text-green-200 rounded-xl p-5 overflow-x-auto text-sm leading-relaxed">
+  <h2 className="text-2xl font-semibold text-gray-800">🧩 Example Code</h2>
+  <pre className="bg-gray-900 text-green-200 rounded-xl p-5 overflow-x-auto text-sm leading-relaxed">
 {`import { useState } from "react";
 
-export default function Example() {
-  const [text, setText] = useState("");
-
-  const handleChange = (e) => {
-    setText(e.target.value);
-  };
+export default function CounterExample() {
+  const [count, setCount] = useState(0);
 
   return (
     <div>
-      <input
-        type="text"
-        value={text}
-        onChange={handleChange}
-        className="border p-2 rounded"
-      />
-      <p>You typed: {text}</p>
+      <h2>Count: {count}</h2>
+      <button onClick={() => setCount(count - 1)}>-</button>
+      <button onClick={() => setCount(0)}>Reset</button>
+      <button onClick={() => setCount(count + 1)}>+</button>
     </div>
   );
 }`}
-          </pre>
-        </section>
+  </pre>
+</section>
+
 
         <section>
           <h2 className="text-2xl font-semibold text-gray-800">💡 Try It Yourself</h2>
